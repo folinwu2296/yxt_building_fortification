@@ -220,6 +220,7 @@ class _MainPageState extends State<MainPage> with WindowListener {
                                     BotToast.showText(text: "请输入密码");
                                     return;
                                   }
+                                  BotToast.showText(text: "惊不惊喜，意不意外！");
                                 },
                               ),
                               const SizedBox(
